@@ -2,13 +2,6 @@
 
 let amigos = [];
 
-function adicionarAmigo() {
-    let nome = document.getElementById("nomeAmigo").value; 
-    if (nome) {
-        amigos.push(nome); 
-        document.getElementById("nomeAmigo").value = ""; 
-    }
-}
 
 function adicionarAmigo() {
     let inputNome = document.getElementById("nomeAmigo"); 
@@ -21,17 +14,6 @@ function adicionarAmigo() {
     } else {
         alert("Por favor, insira um nome válido."); 
     }
-}
-
-function atualizarLista() {
-    let lista = document.getElementById("listaAmigos"); 
-    lista.innerHTML = ""; 
-
-    amigos.forEach((amigo, index) => {
-        let li = document.createElement("li");
-        li.textContent = amigo;
-        lista.appendChild(li);
-    });
 }
 
 function atualizarLista() {
