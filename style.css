@@ -4,8 +4,8 @@
     --color-tertiary: #FF7ED4;
     --color-button: #FF7ED4;
     --color-button-hover: #FF7ED4;
-    --color-text: #FFFFFF;
-    --color-white: #FFFFFF;
+    --color-text: #410445;
+    --color-white: #410445;
 }
 
 /* Estilos gerais */
@@ -136,7 +136,7 @@ ul {
 
 .result-list {
     margin-top: 15px;
-    color: #7E30E1;
+    color: #410445;
     font-size: 22px;
     font-weight: bold;
     text-align: center;
