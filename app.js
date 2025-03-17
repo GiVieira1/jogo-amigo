@@ -7,13 +7,19 @@ function adicionarAmigo() {
     let inputNome = document.getElementById("nomeAmigo"); 
     let nome = inputNome.value.trim(); 
 
-    if (nome) { 
-        amigos.push(nome); 
-        inputNome.value = ""; 
-        atualizarLista(); 
-    } else {
-        alert("Por favor, insira um nome válido."); 
+    if (!nome) { 
+        alert("Por favor, insira um nome válido.");
+        return;
     }
+
+    if (amigos.includes(nome)) { 
+        alert("Este nome já foi adicionado!"); 
+        return;
+    }
+
+    amigos.push(nome); 
+    inputNome.value = ""; 
+    atualizarLista(); 
 }
 
 function atualizarLista() {
@@ -40,5 +46,4 @@ function sortearAmigo() {
     let resultado = document.getElementById("resultadoSorteio"); 
     resultado.innerHTML = `🎉 O amigo sorteado foi: <strong>${amigoSorteado} 🎉</strong>`;
     resultado.classList.add("result-list"); 
-}
-
+} 
