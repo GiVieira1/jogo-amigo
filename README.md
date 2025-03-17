@@ -10,7 +10,7 @@
 * [License](#memo-license)
 
 ## :scroll: Overview
-Este é um projeto desenvolvido com HTML, CSS e JavaScript para reforçar conhecimentos básicos de Desenvolvimento Web e lógica de programação. O desafio foi proposto pelo Projeto da Oracle + Alura Latam (ONE G8) como parte do aprendizado prático.
+O projeto do Jogo Amigo secreto foi desenvolvido com HTML, CSS e JavaScript para reforçar conhecimentos básicos de lógica de programação e Desenvolvimento Web. O desafio foi proposto pelo Projeto da Oracle + Alura Latam (ONE G8) como parte do aprendizado prático.
 ![Image](https://github.com/user-attachments/assets/62bf5fa2-94d6-4d71-8914-91f2f54e21e3)
 
 
