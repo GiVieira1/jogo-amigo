@@ -10,6 +10,7 @@
 * [License](#memo-license)
 
 ## :scroll: Overview
+![Image](https://github.com/user-attachments/assets/62bf5fa2-94d6-4d71-8914-91f2f54e21e3)
 <!-- Projeto amigo secreto criado em HTML, CSS e Javascript para o desafio tal.... com o objetivo de verificar conhecimentos básicos em relação ao Desenvolvimento Web -->
 
 ## Funcionalidades principais:
